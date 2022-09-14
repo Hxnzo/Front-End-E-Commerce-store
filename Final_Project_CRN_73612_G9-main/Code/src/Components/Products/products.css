@@ -1,0 +1,94 @@
+.container{
+    background-color: #e3e1c6;
+}
+.title{
+    color: #FFA500;
+}
+.products-container{
+ justify-content: center;
+ align-items: center;
+}
+.search-filter-container{
+    background-color: black;
+    width: 60%;
+    height:auto;
+    align-self: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+.search-filter-container h1{
+ color: aliceblue;
+ font-size:x-large;
+ text-align: center;
+ color: #FFA500;
+}
+.search-filter-items{
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+    color: #FFA500;
+}
+
+.search-filter-items ul{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+    display: table;
+    margin: 0 auto;
+    color: #FFA500;
+
+}
+.search-filter-items li{
+    float: left;
+    padding-left: 3em;
+    color: #FFA500;
+
+}
+.search-filter-items li input{
+    border-style: none;
+    color: #FFA500;
+
+}
+.search-filter-container-two{
+    background-color: black;
+    width: 60%;
+    height:auto;
+    align-self: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.search-bar{
+    color: aliceblue;
+    text-align: center;
+    color: #FFA500;
+}
+.search-bar input{
+    border-radius: 20px;
+    width: 60%;
+    border-style: none;
+    color: #FFA500;
+}
+.row{
+    display: flex;
+    
+}
+
+.column{
+    flex:25%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    transform: translateX(15%);
+}
+#Card{
+    border-radius: 20px;
+    box-shadow: #FFA500 0px 1px 4px, #FFA500 0px 0px 0px 3px;
+}
+#Card:hover{
+    border-radius: 40px;
+}

@@ -1,0 +1,42 @@
+.cart-container{
+    display: flex;
+}
+.column{
+    color: black;
+    flex:50%;
+    width:20px;
+}
+.summary{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 70px;
+    margin-right: 170px;
+    border-radius: 25px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 210px;
+}
+
+.checkout-button{
+    transform: translateX(30%);
+    margin-top: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 5px 5px 5px 5px;
+    color: aliceblue;
+    background-color: black;
+    border-style: none;
+}
+
+.checkout-button:hover{
+    color: black;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#Card{
+    border-radius: 20px;
+    box-shadow: #FFA500 0px 1px 4px, #FFA500 0px 0px 0px 3px;
+}
+#Card:hover{
+    border-radius: 40px;
+}

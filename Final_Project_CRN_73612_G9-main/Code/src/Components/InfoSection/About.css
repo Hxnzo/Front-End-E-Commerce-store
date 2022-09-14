@@ -1,0 +1,13 @@
+.About-Container{
+    background-color: #FFD580;
+}
+.about-title-container{
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.about-end{
+    padding-top: 150px;
+}
